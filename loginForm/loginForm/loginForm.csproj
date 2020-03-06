@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B2C889F-37D4-4BCE-A4BB-A0B58F1873D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>loginForm</RootNamespace>
+    <AssemblyName>loginForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DeleteClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteClient.Designer.cs">
+      <DependentUpon>DeleteClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCosmetician.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCosmetician.Designer.cs">
+      <DependentUpon>DeleteCosmetician.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePick.Designer.cs">
+      <DependentUpon>DeletePick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertClient.Designer.cs">
+      <DependentUpon>InsertClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertCosmetician.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertCosmetician.Designer.cs">
+      <DependentUpon>InsertCosmetician.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertPick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertPick.Designer.cs">
+      <DependentUpon>InsertPick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertProcedura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertProcedura.Designer.cs">
+      <DependentUpon>InsertProcedura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertProgramare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertProgramare.Designer.cs">
+      <DependentUpon>InsertProgramare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertSalaProceduri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertSalaProceduri.Designer.cs">
+      <DependentUpon>InsertSalaProceduri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interogare1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interogare1.Designer.cs">
+      <DependentUpon>Interogare1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterogatePick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterogatePick.Designer.cs">
+      <DependentUpon>InterogatePick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateClienti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateClienti.Designer.cs">
+      <DependentUpon>UpdateClienti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePick.Designer.cs">
+      <DependentUpon>UpdatePick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProcedura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProcedura.Designer.cs">
+      <DependentUpon>UpdateProcedura.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DeleteClient.resx">
+      <DependentUpon>DeleteClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCosmetician.resx">
+      <DependentUpon>DeleteCosmetician.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePick.resx">
+      <DependentUpon>DeletePick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertClient.resx">
+      <DependentUpon>InsertClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertCosmetician.resx">
+      <DependentUpon>InsertCosmetician.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertPick.resx">
+      <DependentUpon>InsertPick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertProcedura.resx">
+      <DependentUpon>InsertProcedura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertProgramare.resx">
+      <DependentUpon>InsertProgramare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertSalaProceduri.resx">
+      <DependentUpon>InsertSalaProceduri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interogare1.resx">
+      <DependentUpon>Interogare1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterogatePick.resx">
+      <DependentUpon>InterogatePick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UpdateClienti.resx">
+      <DependentUpon>UpdateClienti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePick.resx">
+      <DependentUpon>UpdatePick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProcedura.resx">
+      <DependentUpon>UpdateProcedura.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
